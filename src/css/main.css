@@ -88,10 +88,59 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    margin: 0;
+}
 
+.header {
+    width : 100%;
+    height: 54px;
+    border: 2px thin black;
+    background-color: black;
+}
 
+#header-text {
+    color : #880000;
+    font-family: Verdana;
+    position: relative;
+    left : 35%;
+    font-size: 40px;
+    
+}
 
+#headerimg {
+    width: 4%;
+    position: relative;
+    top: 15%;
+    left : 3%;
+}
 
+.sidebar {
+    width : 15%;
+    float : left;
+    display: block;
+    margin-top: 50px;
+    position: fixed;
+}
+
+.sidebar ul li a{
+    text-decoration: none;
+}
+
+.sidebar ul li {
+    list-style: none;
+}
+
+.content {
+    width: 85%;
+    float : right ;
+    font-family: Verdana;
+    font-size: 20px;
+}
+
+.footer {
+    clear : both;
+}
 
 
 
